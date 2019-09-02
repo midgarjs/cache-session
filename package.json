@@ -1,0 +1,20 @@
+{
+  "name": "@midgar/cache-session",
+  "version": "1.0.0-alpha.1.0",
+  "description": "A Midgar plugin to add cache storage to @midgar/session plugin",
+  "scripts": {
+    "postinstall": "midgar-add-plugin @midgar/cache-session"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midgarjs/cache-session.git"
+  },
+  "dependencies": {
+    "@midgar/cache": "^1.0.0-alpha.1.4",
+    "@midgar/session": "^1.0.0-alpha.1.4",
+    "express-session-cache-manager": "^1.0.2"
+  },
+  "devDependencies": {},
+  "author": "Metais Fabien",
+  "license": "MIT"
+}
